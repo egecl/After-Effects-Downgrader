@@ -1,0 +1,8 @@
+# For drag & drop support (optional but recommended)
+tkinterdnd2
+
+# Modern UI framework
+customtkinter>=6.0.0
+
+# For building .exe
+pyinstaller
