@@ -3,7 +3,7 @@ chcp 65001 >nul
 title AE Binary Downgrader
 
 REM Toolkit location - CHANGE THIS if you move the toolkit
-set "TOOLKIT_DIR=E:\Claude\ae-downgrade-toolkit"
+set "TOOLKIT_DIR=%~dp0"
 
 where python >nul 2>&1
 if errorlevel 1 (
